@@ -6,7 +6,8 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./big-card.component.css']
 })
 export class BigCardComponent implements OnInit{
-
+  @Input()
+  id:String = "0"
   @Input()
   photoCover:String = ""
   @Input()

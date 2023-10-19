@@ -1,4 +1,4 @@
 <article>
     <figure><img src="{{ photoCover }}" alt="{{ photoAlt }}"></figure>
-    <h2>{{ cardTitle }}</h2>
+    <h2><a [routerLink]="['content', id]">{{ cardTitle }}</a></h2>
 </article>
