@@ -1,0 +1,12 @@
+hr:first-child {
+    margin-top: 0.8em;
+}
+
+h1 {
+    color: #f3f3f3;
+    margin: 0.5em auto;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 10em;
+}

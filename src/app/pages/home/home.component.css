@@ -1,0 +1,6 @@
+.blog-body {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+.big-card {margin: 0 1em;}
